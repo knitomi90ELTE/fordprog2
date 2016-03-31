@@ -1,0 +1,158 @@
+
+
+01.szintaktikus-hibas
+x& = 5
+
+
+02.szintaktikus-hibas
+LET x& = 5 2
+
+
+03.szintaktikus-hibas
+LET x& = (5 + 2
+
+
+04.szintaktikus-hibas
+LET x& = 5 + 2)
+
+
+05.szintaktikus-hibas
+LET x& = 5 (+) 2
+
+
+06.szintaktikus-hibas
+IF x& = 2 NOT (y& = 3) THEN
+  LET z& = 0
+ENDIF
+
+
+07.szintaktikus-hibas
+LET
+
+
+08.szintaktikus-hibas
+LET x&
+
+
+09.szintaktikus-hibas
+LET x& =
+
+
+10.szintaktikus-hibas
+LET 0 = 0
+
+
+11.szintaktikus-hibas
+LET x& 0
+
+
+12.szintaktikus-hibas
+LET 0 = x&
+
+
+13.szintaktikus-hibas
+LET x& < 0
+
+
+14.szintaktikus-hibas
+INPUT
+
+
+15.szintaktikus-hibas
+INPUT x& + y&
+
+
+16.szintaktikus-hibas
+PRINT
+
+
+17.szintaktikus-hibas
+PRINT LET x&
+
+
+18.szintaktikus-hibas
+INPUT a&
+LET i& = 2
+i& < a&
+    IF a& MOD i& = 0 THEN
+        PRINT i&
+        END
+    ENDIF
+    LET i& = i& + 1
+WEND
+
+
+19.szintaktikus-hibas
+INPUT a&
+LET i& = 2
+WHILE 
+    IF a& MOD i& = 0 THEN
+        PRINT i&
+        END
+    ENDIF
+    LET i& = i& + 1
+WEND
+
+
+20.szintaktikus-hibas
+INPUT a&
+LET i& = 2
+WHILE i& < a&
+    IF a& MOD i& = 0 THEN
+        PRINT i&
+        END
+    ENDIF
+    LET i& = i& + 1
+REM WEND
+
+
+21.szintaktikus-hibas
+INPUT a&
+LET i& = 2
+WHILE i& < a&
+    a& MOD i& = 0 THEN
+        PRINT i&
+        END
+    ENDIF
+    LET i& = i& + 1
+WEND
+
+
+22.szintaktikus-hibas
+INPUT a&
+LET i& = 2
+WHILE i& < a&
+    IF a& MOD i& = 0 REM THEN
+        PRINT i&
+        END
+    ENDIF
+    LET i& = i& + 1
+WEND
+
+
+23.szintaktikus-hibas
+INPUT a&
+LET i& = 2
+WHILE i& < a&
+    IF a& MOD i& = 0 THEN
+        PRINT i&
+        END
+    REM ENDIF
+    LET i& = i& + 1
+WEND
+
+
+24.szintaktikus-hibas
+INPUT a&
+LET i& = 2
+WHILE i& < a&
+    IF a& MOD i& = 0 THEN
+        PRINT i&
+        END i&
+    ENDIF
+    LET i& = i& + 1
+WEND
+
+
+25.szintaktikus-hibas
+PRINT 042

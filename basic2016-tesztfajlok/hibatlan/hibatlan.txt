@@ -1,0 +1,89 @@
+﻿01.ok
+
+INPUT a&
+LET i& = 2
+WHILE i& <= a&
+    IF a& MOD i& = 0 THEN
+        PRINT i&
+        END
+    ENDIF
+    LET i& = i& + 1
+WEND
+
+02.ok
+
+PRINT 0
+
+03.ok
+
+INPUT x&
+LET x& = x&+1
+PRINT x&
+END
+
+04.ok
+
+INPUT x&
+INPUT y&
+PRINT NOT x& = y&
+
+05.ok
+
+INPUT x&
+IF x& < 10 THEN
+    PRINT x&
+ELSE
+    PRINT 10
+ENDIF
+
+06.ok
+
+INPUT x&
+WHILE x& = 10
+    PRINT x&
+WEND
+
+07.ok
+
+INPUT x&
+INPUT y&
+WHILE x& > 0
+    PRINT y&
+    LET x& = x&-1
+WEND
+
+08.ok
+
+REM Megjegyzes...
+INPUT x& REM ... meg egy ...
+PRINT x&
+REM ...  es itt is egy.
+
+09.ok
+
+INPUT x&
+LET x& = ((x&)+(1))
+PRINT(((x&)))
+END
+
+10.ok
+
+11.ok
+INPUT a&LET i&=2WHILE i&<a&IF a&MOD i&=0THENPRINT i&ENDENDIFLET i&=i&+1WEND
+
+12.ok
+REM Minden operĂˇtor:
+PRINT 2 + 3 * 4 \ 2 - 5
+PRINT 2 = 2 AND 3 < 2 OR NOT (2 > 3) AND 2 <= 2 AND 4 >= 3
+
+13.ok
+
+INPUT A&
+LET ikK92& = 2
+WHILE ikK92& < A&
+    IF A& MOD ikK92& = 0 THEN
+        PRINT ikK92&
+        END
+    ENDIF
+    LET ikK92& = ikK92& + 1
+WEND

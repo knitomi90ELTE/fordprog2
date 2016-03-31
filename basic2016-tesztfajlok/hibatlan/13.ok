@@ -1,0 +1,9 @@
+INPUT A&
+LET ikK92& = 2
+WHILE ikK92& < A&
+    IF A& MOD ikK92& = 0 THEN
+        PRINT ikK92&
+        END
+    ENDIF
+    LET ikK92& = ikK92& + 1
+WEND
