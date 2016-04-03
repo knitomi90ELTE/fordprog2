@@ -3,13 +3,14 @@
 
 %token END LET IF THEN ELSE ENDIF WHILE WEND INPUT PRINT NUMBER OPEN CLOSE AZON
 
-%left MULTI DIV MOD
-%left PLUS MINUS
-%left GT LT LE GE
-%left EQUAL
-%left NOT
-%left AND
 %left OR
+%left AND
+%left NOT
+%left EQUAL
+%left GT LT LE GE
+%left PLUS MINUS
+%left MULTI DIV MOD
+
 
 %%
 
